@@ -1,5 +1,5 @@
 # Accessibilité et Qualité
-Guide d'assurance qualité et d'accessibilité pour les produits numériques développés à la SOFAD.
+Guide d'assurance qualité et d'accessibilité pour les produits développés à la SOFAD.
 
 ## Buts
 - Assurer la qualité constante des produits numériques ;
