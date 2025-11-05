@@ -1,0 +1,39 @@
+
+<!-- 
+S'assurer que le texte du lien décrit clairement sa fonction
+    - Le texte du lien doit être compréhensible hors contexte
+    - Éviter les liens vagues comme "cliquez ici", "en savoir plus", "lire la suite", "plus d'infos", etc.
+    - Utiliser des verbes d'action pour décrire ce que l'utilisateurice peut faire en cliquant sur le lien (ex: "Télécharger le rapport annuel", "S'inscrire à la newsletter", "Voir les détails du produit", etc.)
+    - Si plusieurs liens mènent au même endroit, s'assurer que leur texte est identique
+    - Si plusieurs liens dans une même page mènent à des destinations différentes, s'assurer que leur texte est distinct
+    - Pour les liens dans des listes ou des menus, s'assurer que le contexte est clair et que chaque lien est compréhensible individuellement
+
+aria-label & title pour les liens
+    - arial-label pour décrire la fonction du lien si ell n'est pas clairement décrite dans le texte du lien
+        - aria-hidden pour les éléments sans texte (ex: icônes, SVG, etc)
+        - superflu pour les liens donc la fonction est décrite dans le texte du lien (ex: <a href="#" title="Fermer">Fermer</a>)
+    - title pour afficher une info-bulle
+        - Title n'est pas un substitut à aria-label et n'est pas lu par les lecteurs d'écran
+        - Title n'améliore pas forcément l'accessibilité
+-->
+
+<!-- Liens vers un appel téléphonique -->
+<p>
+    <a href="tel:+15145292800" aria-label="Appeler le service client au  514 529-2800" title="Appeler le service client au  514 529-2800">
+        <span aria-hidden="true">📞</span> (514) 555-1234
+    </a>
+</p>
+
+<!-- Lien vers une nouvelle fenêtre en avertissant l'utilisateurice -->
+<a 
+    href="https://www.example.com" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    aria-label="Règle 2.1 (ouvre une nouvelle fenêtre)" 
+    title="Ouvre une nouvelle fenêtre">Règle 2.1</a>
+
+<!-- Pas de liens sans intitulé -->
+❌ <a href="#haut" id="retourHaut"></a>
+
+<!-- L'intitulé décrit la fonction du lien.-->
+❌ <a href="#">cliquez ici</a>

@@ -1,0 +1,25 @@
+
+/* Rendre plus lisible les TITLE des abréviations et acronymes */
+abbr[title] {
+    text-decoration: underline dotted;
+    cursor: help;
+    border-bottom: 1px dotted #666;
+  }
+  
+  abbr[title]:hover {
+    position: relative;
+  }
+  
+  abbr[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    white-space: nowrap;
+    z-index: 1000;
+  }

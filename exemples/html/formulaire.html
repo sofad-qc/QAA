@@ -1,0 +1,122 @@
+<form aria-labelledby="form-title">
+    <h2 id="form-title">Formulaire de contact</h2>
+  
+    <!-- Champ texte -->
+    <div>
+      <label for="name">Nom complet</label>
+      <input type="text" id="name" name="name" required aria-required="true" />
+    </div>
+  
+    <!-- Champ email -->
+    <div>
+      <label for="email">Adresse courriel</label>
+      <input type="email" id="email" name="email" required aria-required="true" />
+    </div>
+  
+    <!-- Champ mot de passe -->
+    <div>
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" name="password" required aria-required="true" />
+    </div>
+  
+    <!-- Champ date -->
+    <div>
+      <label for="dob">Date de naissance</label>
+      <input type="date" id="dob" name="dob" />
+    </div>
+
+    <!-- Champ heure -->
+    <input type="time">
+    <!-- Champ Mois -->
+    <input type="month">
+    <!-- Champ Semaine -->
+    <input type="week">
+
+    <!-- Champ numéro -->
+    <div>
+      <label for="age">Âge</label>
+      <input type="number" id="age" name="age" min="0" />
+    </div>
+  
+    <!-- Case à cocher -->
+    <fieldset>
+      <legend>Préférences</legend>
+      <div>
+        <input type="checkbox" id="newsletter" name="newsletter" />
+        <label for="newsletter">Recevoir la newsletter</label>
+      </div>
+    </fieldset>
+  
+    <!-- Boutons radio -->
+    <fieldset>
+      <legend>Genre</legend>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Homme</label>
+      </div>
+      <div>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Femme</label>
+      </div>
+      <div>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Autre</label>
+      </div>
+    </fieldset>
+  
+    <!-- Liste déroulante -->
+    <div>
+      <label for="country">Pays</label>
+      <select id="country" name="country">
+        <option value="">-- Sélectionner --</option>
+        <option value="ca">Canada</option>
+        <option value="fr">France</option>
+        <option value="be">Belgique</option>
+      </select>
+    </div>
+
+<!-- Les listes d'options de formulaires sont présentées dans un ordre identifiable.  -->
+
+<!-- Liste triée alphabétiquement -->
+<select name="province">
+  <option value="AB">Alberta</option>
+  <option value="BC">Colombie-Britannique</option>
+  <option value="MB">Manitoba</option>
+  <option value="NB">Nouveau-Brunswick</option>
+  <option value="QC">Québec</option>
+</select>
+
+<!-- Liste triée chronologiquement -->
+<select name="année">
+  <option value="2025">2025</option>
+  <option value="2024">2024</option>
+  <option value="2023">2023</option>
+</select>
+
+<!-- Liste groupée logiquement -->
+<select name="matière">
+  <optgroup label="Sciences">
+    <option>Mathématiques</option>
+    <option>Physique</option>
+  </optgroup>
+  <optgroup label="Langues">
+    <option>Français</option>
+    <option>Anglais</option>
+  </optgroup>
+</select>
+
+
+  
+    <!-- Zone de texte -->
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" cols="50" aria-describedby="message-help"></textarea>
+      <small id="message-help">Veuillez entrer votre message ici.</small>
+    </div>
+  
+    <!-- Bouton de soumission -->
+    <div>
+      <button type="submit">Envoyer</button>
+    </div>
+  </form>
+  
