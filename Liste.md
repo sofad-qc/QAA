@@ -5,7 +5,7 @@
 - [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification.
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
-- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil. [Entrée WIKI](https://github.com/sofad-qc/QAA/wiki/Contenus#les-nouveaux-contenus-sont-facilement-identifiables-%C3%A0-partir-de-la-page-daccueil:~:text=Contenus-,Les%20nouveaux%20contenus%20sont%20facilement%20identifiables%20%C3%A0%20partir%20de%20la%20page%20d%27accueil.,-Add%20a%20custom)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
   
 ## Formulaires
@@ -141,11 +141,3 @@
 - [OpQuast](https://checklists.opquast.com/en/web-quality-assurance/)
 - [W3C WCAG](https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
 - [Traduction française des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
-
----
-
-### Mise en pratique et exemples
-
-- Identification de nouveaux contenus :
-  - [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/)
-  - [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
