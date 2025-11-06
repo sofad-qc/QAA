@@ -23,4 +23,4 @@ Guide d'assurance qualité et d'accessibilité pour les produits développés à
 
 ## WIKI
 
-**[Documentation](https://github.com/sofad-qc/QAA/wiki)**
+**[Documentation](https://github.com/sofad-qc/QAA/wiki/Assurance-qualit%C3%A9-&-Accessibilit%C3%A9)**
