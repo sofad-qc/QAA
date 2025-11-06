@@ -87,7 +87,6 @@
 - [ ] Permettre de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
 - [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
 - [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
-- [ ] Fournir un moyen de contourner le contenu répété sur plusieurs pages.
 - [ ] Veiller à ce que les éléments focalisables soient mis en évidence dans un ordre logique qui préserve le sens et la fonctionnalité.
 - [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
 - [ ] Les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
@@ -102,8 +101,7 @@
 
 ## Sécurité & données personnelles
 
-- [ ] Toutes les pages utilisent le protocole HTTPS.
-- [ ] Les pages utilisant le protocole HTTPS ne proposent pas de ressources http.
+- [ ] Les pages utilisent le protocole HTTPS et ne proposent pas de ressources http.
 - [ ] Mot de passe
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.

@@ -1,5 +1,4 @@
 #!/bin/bash
-# Script pour automatiser les commandes Git courantes
 git status
 git add .
 read -p "Entrez le message de commit : " commit_message
