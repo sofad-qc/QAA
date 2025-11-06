@@ -2,10 +2,10 @@
 
 ## Contenu
 
-- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification.
+- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [Entrée wiki](https://github.com/sofad-qc/QAA/wiki/Contenus#premi%C3%A8re-occurrence-dune-abr%C3%A9viation)
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
-- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil. [Entrée WIKI](https://github.com/sofad-qc/QAA/wiki/Contenus#les-nouveaux-contenus-sont-facilement-identifiables-%C3%A0-partir-de-la-page-daccueil:~:text=Contenus-,Les%20nouveaux%20contenus%20sont%20facilement%20identifiables%20%C3%A0%20partir%20de%20la%20page%20d%27accueil.,-Add%20a%20custom)
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil. [Entrée wiki](https://github.com/sofad-qc/QAA/wiki/Contenus#les-nouveaux-contenus-sont-facilement-identifiables-%C3%A0-partir-de-la-page-daccueil:~:text=Contenus-,Les%20nouveaux%20contenus%20sont%20facilement%20identifiables%20%C3%A0%20partir%20de%20la%20page%20d%27accueil.,-Add%20a%20custom)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
   
 ## Formulaires
