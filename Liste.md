@@ -75,18 +75,16 @@
 ## Présentation & Interface
 
 - [ ] La charte graphique est conhérente et constante.
-- [ ] L'information n'est pas véhiculée uniquement par la couleur.
-- [ ] Les contenus sont présentés avec un contraste suffisant avec l'arrière-plan (4.5:1)
-- [ ] La taille des éléments cliquables est suffisante (44px X 44px).
+- [ ] Ne pas dépendre uniquement à des caractéristiques sensorielles (forme, couleur, son) pour donner des instructions ou trasmettre des informations.
+- [ ] Les contenus, textes et images, sont présentés avec un contraste suffisant avec l'arrière-plan (4.5:1)
+- [ ] Les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
+- [ ] La taille des éléments cliquables est suffisante (minimum: 44px X 44px).
 - [ ] Les styles ne justifient pas le texte.
-- [ ] Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles.
+- [ ] Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles. Ex : `text-transform: uppercase;`
 - [ ] La structure et les relations du contenu sont clairement codées ou disponibles sous forme de texte pour les technologies d'assistance.
 - [ ] Le contenu suit un ordre de lecture logique que les technologies d'assistance peuvent interpréter correctement.
-- [ ] Ne pas dépendre uniquement à des caractéristiques sensorielles (forme, couleur, son) pour donner des instructions ou trasmettre des informations.
 - [ ] Le contenu doit être utilisable dans les deux orientations, portrait et paysage, sauf si l'une d'entre elles est essentielle.
-- [ ] Le texte et les images du texte doivent avoir un rapport de contraste d'au moins 4,5:1.
 - [ ] Permettre de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
-- [ ] Les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
 - [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
 - [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
 - [ ] Fournir un moyen de contourner le contenu répété sur plusieurs pages.
